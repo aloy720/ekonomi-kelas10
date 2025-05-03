@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Belajar Ekonomi SMA</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f0f4f8;
+    }
+    header {
+      background: linear-gradient(90deg, #3a86ff, #8338ec);
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    nav {
+      background-color: #4361ee;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #ffd60a;
+    }
+    main {
+      max-width: 1000px;
+      margin: 30px auto;
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+    section {
+      margin-bottom: 40px;
+    }
+    h2 {
+      color: #3a0ca3;
+    }
+    img {
+      max-width: 100%;
+      border-radius: 10px;
+      margin-top: 10px;
+    }
+    iframe {
+      width: 100%;
+      height: 315px;
+      margin-top: 10px;
+      border: none;
+    }
+    footer {
+      text-align: center;
+      background: #3a0ca3;
+      color: white;
+      padding: 15px;
+      margin-top: 30px;
+    }
+    .quiz {
+      background: #e9f5ff;
+      padding: 20px;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+    .quiz button {
+      background: #3a86ff;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      margin-top: 10px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    .quiz button:hover {
+      background: #0077b6;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Belajar Ekonomi Dasar Kelas 10</h1>
+    <p>Interaktif & Menyenangkan!</p>
+  </header>
+
+  <nav>
+    <a href="#pengertian">Pengertian</a>
+    <a href="#kebutuhan">Kebutuhan</a>
+    <a href="#masalah">Masalah Ekonomi</a>
+    <a href="#sistem">Sistem Ekonomi</a>
+    <a href="#pelaku">Pelaku Ekonomi</a>
+    <a href="#kuis">Kuis</a>
+  </nav>
+
+  <main>
+    <section id="pengertian">
+      <h2>1. Pengertian Ilmu Ekonomi</h2>
+      <p>
+        Ilmu ekonomi mempelajari bagaimana manusia memenuhi kebutuhan yang tidak terbatas dengan sumber daya terbatas.
+      </p>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Economics_concept.jpg/640px-Economics_concept.jpg" alt="Ilustrasi Ekonomi" />
+    </section>
+
+    <section id="kebutuhan">
+      <h2>2. Kebutuhan dan Kelangkaan</h2>
+      <p>
+        Kebutuhan manusia tidak terbatas, sedangkan alat pemuasnya terbatas. Maka terjadi kelangkaan dan diperlukan pilihan.
+      </p>
+      <img src="https://cdn.pixabay.com/photo/2020/07/26/13/17/economy-5438575_960_720.png" alt="Kelangkaan Barang" />
+    </section>
+
+    <section id="masalah">
+      <h2>3. Masalah Pokok Ekonomi</h2>
+      <p>
+        Masalah pokok ekonomi: Apa, bagaimana, dan untuk siapa barang diproduksi. Jawabannya bergantung pada sistem ekonomi.
+      </p>
+    </section>
+
+    <section id="sistem">
+      <h2>4. Sistem Ekonomi</h2>
+      <p>
+        Jenis sistem ekonomi: tradisional, komando, pasar, dan campuran. Setiap sistem punya kelebihan dan kekurangan.
+      </p>
+      <img src="https://www.economicsdiscussion.net/wp-content/uploads/2016/07/clip_image002.jpg" alt="Jenis Sistem Ekonomi" />
+      <iframe src="https://www.youtube.com/embed/Lm3dD0HyZ8I" title="Video Sistem Ekonomi"></iframe>
+    </section>
+
+    <section id="pelaku">
+      <h2>5. Pelaku Ekonomi dan Peranannya</h2>
+      <p>
+        Pelaku ekonomi: rumah tangga konsumen, produsen, pemerintah, dan luar negeri. Mereka saling berinteraksi dalam kegiatan ekonomi.
+      </p>
+    </section>
+
+    <section id="kuis" class="quiz">
+      <h2>Kuis Interaktif</h2>
+      <p><strong>Pertanyaan:</strong> Apa yang dimaksud dengan kelangkaan?</p>
+      <button onclick="alert('Jawaban benar! Kelangkaan adalah keterbatasan sumber daya.')">Keterbatasan sumber daya</button><br>
+      <button onclick="alert('Jawaban salah. Ini lebih ke distribusi.')">Distribusi barang ke pasar</button><br>
+      <button onclick="alert('Jawaban salah. Itu pengertian ekonomi.')">Ilmu yang mempelajari pilihan</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Tugas Ekonomi SMA | Dibuat oleh Siswa Kelas 10</p>
+  </footer>
+</body>
+</html>
